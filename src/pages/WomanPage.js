@@ -1,10 +1,10 @@
 import MainLayout from "../layouts/MainLayout";
 import CarouselBanner from "../components/CarouselBanner";
 
-const ManPage = () => {
+const WomanPage = () => {
   return (
     <>
-      <div class="title">This is ManPage</div>
+      <div class="title">This is WomanPage</div>
       <MainLayout header="This is header" footer="This is footer">
         This is MainLayout
         <CarouselBanner />
@@ -12,4 +12,5 @@ const ManPage = () => {
     </>
   );
 };
-export default ManPage;
+
+export default WomanPage;
