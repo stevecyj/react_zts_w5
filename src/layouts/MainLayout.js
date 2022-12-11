@@ -1,10 +1,5 @@
 import styled from 'styled-components';
-
-const StyleHeader = styled.header`
-  background-color: red;
-  height: 120px;
-  border-color: #ee4d2d;
-`;
+import MainHeader from '../components/MainHeader';
 
 const MainLayout = (props) => {
   /**header
@@ -14,7 +9,7 @@ const MainLayout = (props) => {
   return (
     <>
       <div>This is MainLayout</div>
-      <StyleHeader>{props.header}</StyleHeader>
+      <MainHeader></MainHeader>
       <main>{props.children}</main>
       <footer>{props.footer}</footer>
     </>

@@ -1,5 +1,5 @@
-import MainLayout from "../layouts/MainLayout";
-import CarouselBanner from "../components/CarouselBanner";
+import MainLayout from '../layouts/MainLayout';
+import CarouselBanner from '../components/CarouselBanner';
 
 const ManPage = () => {
   return (
