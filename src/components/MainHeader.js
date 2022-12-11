@@ -7,9 +7,9 @@ const StyleHeader = styled.header`
   border-color: #ee4d2d;
 `;
 
-const MainHeader = () => {
+const MainHeader = (props) => {
   return (
-    <StyleHeader>
+    <StyleHeader className={props.className}>
       <img src="https://via.placeholder.com/150" alt="logo" srcset="" />
       <input type="text" />
     </StyleHeader>

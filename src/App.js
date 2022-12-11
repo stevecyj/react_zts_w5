@@ -1,6 +1,6 @@
-import ManPage from "./pages/ManPage";
-import WomanPage from "./pages/WomanPage";
-import "./styles.css";
+import ManPage from './pages/ManPage';
+import WomanPage from './pages/WomanPage';
+import './styles.css';
 
 export default function App() {
   return (
