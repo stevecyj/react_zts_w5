@@ -9,7 +9,8 @@ const ManPage = () => {
       <MainLayout header="This is header" footer="This is footer">
         This is MainLayout
         <CarouselBanner />
-        <MainButton>綜合排名</MainButton>
+        <MainButton active>綜合排名</MainButton>
+        <MainButton>最新</MainButton>
       </MainLayout>
     </>
   );
